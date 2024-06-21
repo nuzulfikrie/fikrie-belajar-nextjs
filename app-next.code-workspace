@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"next.js": {
+			"languageServer": true // Enable Next.js language server for improved TypeScript/JavaScript support
+		},
+		"eslint.validate": [
+			"javascript",
+			"javascriptreact",
+			{
+				"language": "typescript",
+				"autoFix": true
+			},
+			{
+				"language": "typescriptreact",
+				"autoFix": true
+			}
+		],
+		"editor.formatOnSave": true, // Automatically format code on save
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "explicit"
+		},
+		"terminal.intergrated.fontSize": 14, // Set the integrated terminal font size to 14px
+		"editor.fontSize": 14, // Set the editor font size to 14px
+		"terminal.intergrated.fontFamily": "JetbrainsMono Nerd Font", // Set the integrated terminal font family to "Jetbrains Mono"
+		"editor.fontFamily": "JetbrainsMono Nerd Font", // Set the editor font family to "Jetbrains Mono"
+	}
+}
